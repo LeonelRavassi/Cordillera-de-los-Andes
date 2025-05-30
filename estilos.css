@@ -1,0 +1,97 @@
+/* ===== ESTILO GENERAL ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #e0f7fa; /* celeste claro */
+  color: #37474f; /* texto gris oscuro */
+  text-align: center;
+}
+
+/* ===== MENÚ DE NAVEGACIÓN ===== */
+/* ===== NAV BAR ===== */
+nav {
+  background-color: #4A90E2; /* azul tenue */
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #4178c0; /* azul más oscuro al pasar el mouse */
+}
+
+
+/* ===== TÍTULOS ===== */
+h1, h2 {
+  color: #263238; /* azul piedra */
+  margin-top: 30px;
+}
+
+/* ===== PÁRRAFOS ===== */
+p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* ===== IMÁGENES ===== */
+.imagen-seccion {
+  max-width: 90%;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== LISTAS ===== */
+ul li {
+  text-align: left;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* ===== OPCIONAL: BOTONES DESTACADOS (si los usás luego) ===== */
+.boton-acento {
+  background-color: #a0522d; /* terracota */
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.boton-acento:hover {
+  background-color: #844421;
+}
+/* ===== FOOTER ===== */
+footer {
+  background-color: #2e7d32; /* verde musgo */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-size: 14px;
+  border-top: 3px solid #1b5e20;
+}
