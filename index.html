@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
-  <audio autoplay loop controls>
-  <source src="audio/andes.mp3" type="audio/mpeg" />
-  Tu navegador no soporta audio HTML5.
-</audio>
+
+
   <nav>
     <ul>
       <li><a href="index.html">Inicio</a></li>
@@ -38,7 +36,24 @@
   </footer>
 
 
-</body>
+  <audio id="audioFondo" autoplay loop>
+  <source src="audio/andes.mp3" type="audio/mpeg" />
+  Tu navegador no soporta audio HTML5.
+</audio>
+
+<button id="toggleAudio" title="Silenciar/Reproducir" style="position: fixed; bottom: 20px; right: 20px; background: none; border: none; cursor: pointer;">
+  🔊
+</button>
+
+<script>
+  const audio = document.getElementById('audioFondo');
+  const toggleBtn = document.getElementById('toggleAudio');
+
+  toggleBtn.addEventListener('click', () => {
+    audio.muted = !audio.muted;
+    toggleBtn.textContent = audio.muted ? '🔇' : '🔊';
+  });
+</script></body>
 </html>
 </body>
 </html>
