@@ -55,12 +55,12 @@ p {
 
 /* ===== IMÁGENES ===== */
 .imagen-seccion {
-  max-width: 90%;
+  max-width: 60%;
   height: auto;
   margin: 20px auto;
   display: block;
-  border-radius: 12px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* ===== LISTAS ===== */
@@ -96,10 +96,10 @@ footer {
   border-top: 3px solid #1b5e20;
 }
 .video-fondo {
-  width: 100%;
-  max-width: 900px;
+  width: 80%;
+  max-width: 600px;
   margin: 20px auto;
   display: block;
   border-radius: 12px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
